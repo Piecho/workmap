@@ -1,0 +1,136 @@
+// @import "materialize";
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+/*desktop, tablet*/
+.kontener{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 93.5vh;
+  opacity: 0.47;
+  background-image: url("technology.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dropdown-content{
+  overflow: visible !important;
+}
+.pagination{
+  text-align: center;
+}
+.search{
+  position: relative;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  top: 27%;
+}
+#search_napis{
+  font-size: 50px;
+}
+.tresc{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.hamburgerxd{
+  z-index: 900 !important;
+}
+.ogl{
+  /*background-color: rgb(141, 191, 191);*/
+  border: 1px solid #86b4c7;
+  height: 400px;
+  width: 95%;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 4px 4px 20px #888888;
+  position: relative;
+  p{
+    margin: 0px 10px 5px 10px;
+    text-align: justify;
+  }
+}
+.tresc{
+  margin-top: 10px;
+  min-height: 63.8vh;
+}
+.img_ogl{
+  width: 200px;
+  height: 133.125px;
+  margin: 7px 0px 5px 0px;
+  filter: blur(1px);
+}
+.img_ogl_div{
+  background-color: #86b4c7;
+}
+.ogl_footer{
+  position: absolute;
+  bottom: 0;
+  background-color: #86b4c7;
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  padding: 10px 5px 0px 10px;
+  display: flex;
+  #rodzaj_prac{
+    font-size: 15px;
+    vertical-align: middle;
+  }
+  #czyt_dalej{
+    font-size: 15px;
+    //position: inherit;
+    right: 0;
+    vertical-align: middle;
+    margin-right: 35px;
+  }
+  .czyt_dalej_icon{
+    position: inherit;
+    right: 0;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: rgb(59, 59, 59);
+  }
+}
+.podgl_ogl{
+  p{
+    text-align: justify;
+  }
+}
+
+
+/*media*/
+@media all and (min-width:480px) and (max-width:993px) {
+  #search_napis{
+    font-size: 30px;
+  }
+  .search{
+    top: 17%;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  .wrapper {
+    position: relative;
+    height: 91.3vh;
+    opacity: 0.47;
+    background-image: url("technology.jpg");
+    background-size: cover;
+    /*background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;*/
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  text: MyString
+  user_sender_id: 1
+  user_recipient_id: 1
+  send_time: 2016-11-16
+  receive_time: 2016-11-16
+  delete_sender: false
+  delete_recipient: false
+
+two:
+  text: MyString
+  user_sender_id: 1
+  user_recipient_id: 1
+  send_time: 2016-11-16
+  receive_time: 2016-11-16
+  delete_sender: false
+  delete_recipient: false
